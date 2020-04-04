@@ -1,0 +1,32 @@
+WEB TEKNOLOJİLERİ PROJE
+AD SOYAD:Elif Sezer
+NO:G181210080
+Grup:1-C
+Github Linki: https://github.com/sezerElf/web-teknolojileri-proje
+Projenin Amacı:
+- Kendimi ve memleketimi anlatan bir web sayfası yapmak
+Proje İçeriği:
+Ana Sayfada
+ - bir navbar ile diğer kısımlara ulaşma
+Hakkında Sayfası
+- hobilerim,hayatım ve fotoğraflarımdan oluşan bir kolaj.
+Özgeçmiş Sayfası 
+- div ve table ile okuduğum okulların geçmişi.
+Şehrim Sayfası 
+ - Tarihi yerlerin bulunduğu bir slider
+ - Slider daki resimlere tıklandığında resimlere ait içerik sayfaları açılmalı
+Mirasımız Sayfası
+ - Kültürel bir yerin anlatımı.
+ Login Sayfası
+ - şifre ve kullanıcı adı girilecek
+ - Eğer kullanıcı adı ve şifre doğruysa 'Hoşgeldiniz' mesajı verilmeli,
+ - Eğer kullanıcı ad veya şifre yanlış ise login sayfasına geri dönülmeli,
+ - Kullanıcı adının mail olup olmadığı,
+ - Kullanıcı adı ve şifrenin boş olup olmadığı kontrol edilmeli, 
+İletişim Sayfası
+ - Form elemanları kullanılmalı
+ -Formda içeriklerin mail olup olmadığı,boş bırakılıp bırakılmadığının konrolü
+Proje Süreci: 
+- aklımdan bir tasarım oluşturacağım
+-verilen ödev kurallarına uyarak bunu hayata geçireceğim
+-php,js,css kullanarak son halini ortaya çıkaracağım
