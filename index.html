@@ -126,7 +126,6 @@
               <th scope="col"></th>
               <th scope="col">Okul Adı</th>
               <th scope="col">Okuduğu Yıllar</th>
-              
             </tr>
           </thead>
           <tbody>
@@ -134,25 +133,21 @@
               <th scope="row">1</th>
               <td>Batman Kültür İlköğretim okulu</td>
               <td>2006-2010</td>
-              
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Esentepe Ortaokulu</td>
               <td>2010-2013</td>
-            
             </tr>
             <tr>
               <th scope="row">3</th>
               <td>Edirne Yıldırım Beyazıt Anadolu Lisesi</td>
               <td>2013-2017</td>
-              
             </tr>
             <tr>
               <th scope="row">4</th>
               <td>Sakarya Üniversitesi</td>
               <td>2018-Hala Devam Etmekte</td>
-              
             </tr>
           </tbody>
         </table>
@@ -171,7 +166,7 @@
             class="carousel slide h-100"
             data-ride="carousel"
           >
-            <ol class="carousel-indicators ">
+            <ol class="carousel-indicators">
               <li
                 data-target="#carouselExampleIndicators"
                 data-slide-to="0"
@@ -334,12 +329,12 @@
           <h3 id="contact">İletişim</h3>
         </div>
 
-        <form onsubmit="deneme">
+        <form id="informationForm" onsubmit="sendInfo(); return false">
           <div class="form-group">
             <input
               type="text"
               class="form-control"
-              id="form1"
+              id="nameSurname"
               placeholder="Ad Soyad"
               required
             />
@@ -348,7 +343,7 @@
             <input
               type="email"
               class="form-control"
-              id="form2"
+              id="mail"
               placeholder="Email"
               required
             />
@@ -357,7 +352,7 @@
             <input
               type="text"
               class="form-control"
-              id="form3"
+              id="topic"
               placeholder="Konu"
               required
             />
@@ -365,7 +360,7 @@
           <div class="form-group">
             <textarea
               class="form-control"
-              id="form4"
+              id="message"
               rows="3"
               required
               placeholder="Mesajınız"
@@ -374,13 +369,17 @@
 
           <button class="btn btn-primary" type="Submit">Gönder</button>
         </form>
-        <button class="btn btn-primary mt-3" onclick="temizle()">
+        <button
+          id="clearButton"
+          class="btn btn-primary mt-3"
+          onclick="temizle()"
+        >
           Temizle
         </button>
       </div>
     </div>
 
-    <script src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

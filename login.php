@@ -5,7 +5,11 @@ session_start();
 $username = $_POST["username"];
 $password = $_POST["password"];
 
+<<<<<<< HEAD
+$okulno_mail = "g181210080@ogr.sakarya.edu.tr" ;// or. g181210059@ogr.sakarya.edu.tr
+=======
 $okulno_mail = "g181210080" ;
+>>>>>>> b43115d594b52ef296070e14498bb2e3e1746f8e
 if(!empty($username) and !empty($password)){
 
     if($username==$okulno_mail and $password=="123")  {
